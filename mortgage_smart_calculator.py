@@ -1,6 +1,7 @@
 import argparse
 from copy import deepcopy
 
+
 class MortgageSmartCalculator(object):
     def __init__(self, loan_amount, loan_term, interest_rate, repayment_month_serial_number=60, *args, **kwargs):
         # 贷款本金
